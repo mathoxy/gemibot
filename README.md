@@ -20,7 +20,7 @@ It's built with simplicity, scalability, and usability in mind.
 
 - **Real-time AI conversations** via Gemini API
 - **Sleek and modern UI** using React.js
-- **Responsive design** — works great on desktop and mobile
+- **Responsive design** works great on desktop and mobile
 
 
 ## Installation
