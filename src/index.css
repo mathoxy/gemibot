@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --blue-color: #20a2d9;
+}
+
+.chatbot-popup {
+  opacity: 0;
+  transform: scale(0.2);
+  transform-origin: bottom right;
+  transition: all 0.5s ease-in-out;
+}
+
+.chatbot-container .show-chatbot {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.hide-chat-icon,
+.hide-close-icon {
+  display: none;
+}
+
+.chatbot-container .show-chatbot ~ #chatbot-toggler {
+  transform: rotate(90deg);
+}
+
